@@ -1,0 +1,55 @@
+$base-color: #ad0f14;
+$white-color: #fff;
+$thirdcolor: #0f9675;
+
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .cardBtn{
+        float: right;
+        background-color:$thirdcolor ;
+    }
+    div{
+        height: 150px;
+    }
+    .cardTitle{
+        float: left;
+        font-weight: bold;
+    }
+    .cardimage{
+        width: 305px;
+        height: 232px;
+    }
+    .carddescription {
+    margin-top: 52px;
+    width: 100%;
+    text-align: justify;
+}
+}
+.modalBody{
+    height: 470px;
+    padding: 29px;
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 22px;
+    }
+}
+.modalsize{
+    position: relative;
+    width: 360px !important;
+    .closeBtn{
+        position: absolute;
+        right: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .modal-size{
+        .modalHeader{
+            border-bottom: none !important;
+        }
+    }
+}

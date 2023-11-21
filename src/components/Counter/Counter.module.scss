@@ -1,0 +1,33 @@
+$base-color: #ad0f14;
+$white-color: #fff;
+$thirdcolor: #0f9675;
+
+
+@mixin CounterMain{
+    width: 30px;
+    height: 36px;
+    color: $white-color;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+.buttonDecrease{
+   @include CounterMain;
+   background-color: $thirdcolor;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+}
+.buttonIncrease{
+    @include CounterMain;
+    background-color: $thirdcolor;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+ }
+ .buttonCounterValue{
+    @include CounterMain;
+    border-radius: 0;
+    color: $thirdcolor;
+ }
